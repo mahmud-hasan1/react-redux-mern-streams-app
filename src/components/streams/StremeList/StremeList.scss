@@ -1,0 +1,77 @@
+
+.streams_list {
+  box-shadow: 0 0 3px 1px grey;
+  padding: 10px 20px;
+  width: 500px;
+  height: 100%;
+  margin: auto;
+}
+
+.streams_list_item {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+  box-sizing: border-box;
+  border-bottom: 2px solid rgba(219, 215, 215, 0.527);
+}
+
+.left {
+  margin-right: 20px;
+}
+
+.left .fa-camera {
+  font-size: 30px;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 50px);
+  box-sizing: border-box;
+}
+
+
+.streams_list_item h3 {
+  margin: 0;
+  padding: 0;
+  color: rgb(78, 78, 78);
+}
+.content{
+  width: calc(100% - 94px)
+}
+.actions{
+  width: 94px
+}
+
+.streams_list_item p {
+  margin: 0;
+  padding: 0;
+  color: rgb(78, 78, 78);
+}
+
+
+
+
+  
+@media(max-width: 991px){
+  .streams_list{
+    width: 500px;
+  }
+}
+
+@media(max-width: 768px){
+  .streams_list{
+    width: calc(100% - 15px);
+  }
+  .modal_backdrop {
+    padding: 0 40px;
+  }
+}
+
+@media(min-width: 768px){
+  .streams_list{
+    width: 700px;
+  }
+}

@@ -1,0 +1,46 @@
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+
+}
+.nav-items{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+.nav-items li{
+  margin: 10px;
+  cursor: pointer;
+  font-weight: 400;
+}
+.logout-button{
+  color: rgb(68, 250, 129);
+  cursor: pointer;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.auth-menu{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.auth-menu li{
+  margin-right: 10px;
+}
+.nav-items li a{
+  padding: 10px 0px;
+  text-decoration: none;
+  color : rgb(32, 32, 32)
+}
+.active{
+  color: rgb(255, 0, 0) !important;
+  font-weight: bold;
+}
+

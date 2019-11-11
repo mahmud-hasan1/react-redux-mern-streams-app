@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+
+.userList{
+  border: 1px solid grey;
+  height: 50px;
+  box-shadow: 0 0 3px 0px grey;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 300px;
+  min-width: 300px;
+}
+.username{
+  text-align: center
+}
+
+
+.main_header{
+  background: linear-gradient(95deg, #88c288, #2aacc2, #e79797); 
+  /* background: rgb(255, 255, 255); */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 1px 8px -2px grey;
+  color: #f7e3e3;
+  z-index: 30;
+}
+
+.h-39{
+  display: block;
+  height: 39px;
+  width: 100%;
+  background-color: rgb(172, 51, 51);
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
+.app_title{
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #42c700;
+  font-size: 44px;
+  text-shadow: 0px 3px 3px #029602;
+}
+
+.active{
+  color: green;
+}
+.blur{
+  filter: blur(4px)
+}

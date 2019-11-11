@@ -1,0 +1,49 @@
+.search-picture{
+  max-width: 200px;
+  min-width: 300px;
+  margin: 20px auto;
+}
+
+.search-picture_form{
+  display: flex;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid #f5411d;
+  box-shadow: 0 0 2px 0px #ff0000c9;
+  outline: none;
+  padding: 3px 7px;
+  border-radius: 3px;
+}
+
+.search-button{
+  width: 80px;
+  background-color: rgb(39, 122, 231);
+  border: 1px solid #0a5dca;
+  border-radius: 3px;
+  padding: 3px 0px;
+  outline: none;
+  box-shadow: 0 0 2px 0px #0253ebc9;
+  color: white;
+  cursor: pointer;
+}
+
+.search-button:hover{
+  background-color: rgb(0, 108, 250);
+  border: 1px solid #0a5dca;
+}
+
+.field{
+  margin: 10px 0px;
+}
+.form_error_message{
+  font-size: 14px;
+  color: red;
+  padding: 10px 0px;
+}
+.back_button{
+  cursor: pointer;
+  font-size: 14px;
+  
+}

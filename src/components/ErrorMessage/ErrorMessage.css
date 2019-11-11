@@ -1,0 +1,19 @@
+
+.error {
+  background-color: #ef3e3e;
+  box-shadow: 2px 1px 5px 0px #ec0e0e;
+  padding: 8px 10px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+
+.error-message{
+  color: #ecd0d0;
+}
+.error-close{
+  color: white;
+  cursor: pointer;
+}
